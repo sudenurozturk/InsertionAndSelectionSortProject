@@ -12,23 +12,7 @@ Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 ```
 Big-O gösterimini yazınız.
 ```
-Insertion Sort algoritmasının en kötü durumda çalışması 
-𝑂
-(
-𝑛
-2
-)
-O(n 
-2
- ) olarak ifade edilir. Çünkü her eleman, neredeyse tüm diğer elemanlarla karşılaştırılmak zorundadır. Ortalama durumda da yine 
-𝑂
-(
-𝑛
-2
-)
-O(n 
-2
- ) olarak ifade edilir. 
+Insertion Sort algoritmasının en kötü durumda çalışması \(O(n^2)\) olarak ifade edilir. Çünkü her eleman, neredeyse tüm diğer elemanlarla karşılaştırılmak zorundadır. Ortalama durumda da yine \(O(n^2)\) olarak ifade edilir. En iyi durumda, yani dizi zaten sıralıysa, \(O(n)\) olur.
 ```
 Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
 1.Average case: Aradığımız sayının ortada olması
